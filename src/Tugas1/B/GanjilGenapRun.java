@@ -1,10 +1,18 @@
 package Tugas1.B;
+import java.util.Scanner;
 
 public class GanjilGenapRun {
     public static void main(String[] args) {
 
+        // membuat input
+        Scanner input = new Scanner(System.in);
+
+        // input angka
+        System.out.print("Masukkan angka : ");
+        
         // membuat objek angka
-        GanjilGenap angka = new GanjilGenap(20);
+        GanjilGenap angka = new GanjilGenap(input.nextInt());
+        input.close();
 
         // memanggil method
         System.out.println("Loop menggunakan for");
