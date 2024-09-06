@@ -2,10 +2,14 @@ package Tugas1.B;
 
 public class GanjilGenap {
     int angka;
+
+    // Constructor
     public GanjilGenap(int a){
         this.angka = a;
     }
 
+
+    // Method untuk menampilkan angka ganjil
     public void ganjilFor(){
         System.out.println("Ganjil");
         for (int i = 1; i <= angka; i++) {
@@ -16,6 +20,8 @@ public class GanjilGenap {
         System.out.println();
     }
 
+
+    // Method untuk menampilkan angka genap
     public void genapFor(){
         System.out.println("Genap");
         for (int i = 1; i <= angka; i++) {
