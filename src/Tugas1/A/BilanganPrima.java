@@ -3,10 +3,12 @@ package Tugas1.A;
 public class BilanganPrima {
 int n;
 
+// Constructor
 public BilanganPrima(int n) {
     this.n = n;
 }
 
+// Method untuk mengecek bilangan prima
 public void primaFor() {
     System.out.println("Bilangan prima dari 1 sampai " + n + " adalah : ");
     for (int i = 2; i <= n; i++) {
@@ -23,6 +25,8 @@ public void primaFor() {
     }
     System.out.println();
 }
+
+// Method untuk mengecek bilangan bukan prima
 public void notPrimaFor() {
     System.out.println("Bilangan bukan prima dari 1 sampai " + n + " adalah : ");
     for (int i = 2; i <= n; i++) {
