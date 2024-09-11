@@ -1,4 +1,4 @@
-package Tugas1.A;
+package tugas1.a;
 import java.util.Scanner;
 
 public class BilanganPrimaRun {

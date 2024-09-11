@@ -1,4 +1,4 @@
-package Tugas1.C;
+package tugas1.c;
 
 /**
  * App

@@ -1,4 +1,4 @@
-package Tugas1.C;
+package tugas1.c;
 
 public class LoopRun {
     public static void main(String[] args) {

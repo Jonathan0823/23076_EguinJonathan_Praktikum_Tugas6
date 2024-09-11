@@ -1,4 +1,4 @@
-package Tugas1.B;
+package tugas1.b;
 import java.util.Scanner;
 
 public class GanjilGenapRun {

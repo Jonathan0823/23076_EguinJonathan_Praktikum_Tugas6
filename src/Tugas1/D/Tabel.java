@@ -1,4 +1,4 @@
-package Tugas1.D;
+package tugas1.d;
 
 public class Tabel {
     int n;

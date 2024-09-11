@@ -1,4 +1,4 @@
-package Tugas2;
+package tugas2;
 import java.util.Scanner;
 
 public class TabelRun {
